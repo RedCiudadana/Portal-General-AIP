@@ -63,9 +63,9 @@ tags:
 
                                 <!-- Visitar -->
                                 <div class="sidebar-widget widget-category-2 mb-50">
-                                    <h5>Ir al trámite en línea</h5>
+                                    <h5>Solicitar Información</h5>
                                     <br>
-                                    <a class="btn mb-20" href="#" target="_blank">Ver Trámite</a>
+                                    <a class="btn mb-20" href="#" target="_blank">Solicitar Información</a>
                                 </div>
                                 
                             </div>
@@ -81,7 +81,7 @@ tags:
                                     </div>
                                 </div>
                                 <div class="single-content">
-                                    <div class="row justify-content-center">
+                                    <div class="row border-shadow justify-content-center">
                                         <div class="col-lg-5 my-4 ">
                                             <p><i class="fa-solid fa-house"></i> Dirección: {{instituciones.address}}</p>
                                             <br>
@@ -90,19 +90,58 @@ tags:
                                         <div class="col-lg-5 my-4 ">
                                             <p><i class="fa-solid fa-envelope"></i> Correo: {{instituciones.email}}</p>
                                         </div>
+                                    </div>
+                                    <div class="row border-shadow justify-content-center">
                                         <div class="col-xl-10 col-lg-12 m-auto texto-servicio">
                                             <p>{{instituciones.description | rmj |safe}}</p>
+                                        </div>
+                                    </div>
+                                    <div class="row border-shadow justify-content-center">
+                                        <div class="col-xl-10 col-lg-12 m-auto texto-servicio">
+                                            <h5>Institución en Datos</h5>
+                                            <div class="row">
+                                                <div class="col-lg-3">
+                                                    <h5>2685</h5>
+                                                    <p>Documentos</p>
+                                                </div>
+                                                <div class="col-lg-3">
+                                                    <h5>20/06/2024</h5>
+                                                    <p>Ultima Actualización</p>
+                                                </div>
+                                                <div class="col-lg-3">
+                                                    <h5>777,123</h5>
+                                                    <p>Descargas de Documentos</p>
+                                                </div>
+                                                <div class="col-lg-3">
+                                                    <h5>93</h5>
+                                                    <p>Servicios Disponibles</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row border-shadow justify-content-center">
+                                        <div class="col-xl-10 col-lg-12 m-auto texto-servicio">
                                             
                                             
                                             <div class="row my-4">
                                                 <div class="col-lg-6">
+                                                    <h5>Estándares más descargados</h5>
                                                     <canvas id="pieChart" width="400" height="400"></canvas>
                                                 </div>
 
                                                 <div class="col-lg-6">
+                                                    <h5>Últimas vistas</h5>
                                                     <canvas id="lineChart" width="400" height="400"></canvas>
                                                 </div>
                                             </div>
+                                            
+                                        </div>
+                                    </div>
+                                    <div class="row border-shadow justify-content-center">
+                                        <div class="col-xl-10 col-lg-12 m-auto texto-servicio">
+                                            
+                                            <h5>Documentos más solicitados</h5>
+                                            <p>{{instituciones.description | rmj |safe}}</p>
                                             
                                         </div>
                                     </div>

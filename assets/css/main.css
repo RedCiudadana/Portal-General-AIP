@@ -13107,14 +13107,14 @@ footer .hotline img {
 
 
 .slider-img{
-  background-image: url(/assets/imgs/SLIDER02.png);
+  background-image: url(/assets/imgs/red/elementos/02_ELEMENTOS/02_ELEMENTOS/01_SLIDER/AIP-35.png);
   background-size:cover;
   width:100%
 } 
 
 @media only screen and (max-width: 376px){
   .slider-img{
-    background-image: url(/assets/imgs/SLIDER_MOVIL.png);
+    background-image: url(/assets/imgs/red/elementos/02_ELEMENTOS/02_ELEMENTOS/01_SLIDER/AIP-35.png);
   }
   .slider-content p{
     display: none!important;
@@ -13315,4 +13315,22 @@ footer .hotline img {
 
 .mr-2{
   margin-right: 5px;
+}
+
+.border-shadow{
+  padding: 30px;
+  border: 1px solid #ececec;
+  border-radius: 15px;
+  -webkit-box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.05);
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.05);
+  margin-bottom: 20px;
+}
+
+.hover_gray:hover{
+  background-color: #242424;
+  
+}
+
+.hover_gray:hover .banner-text h3{
+  color: #fff!important;
 }
