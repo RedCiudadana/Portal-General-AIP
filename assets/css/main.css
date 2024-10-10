@@ -39,17 +39,17 @@ TABLE CONTENT
 
 @font-face {
   font-family: "titulos-bold";
-  src: url('/assets/fonts/uicons/red/titulos/Sora-Bold.ttf');
+  src: url('/assets/fonts/euclid-circular-a/Euclid\ Circular\ A\ Bold.ttf');
 }
 
 @font-face {
   font-family: "titulos-semibold";
-  src: url('/assets/fonts/uicons/red/titulos/Sora-SemiBold.ttf');
+  src: url('/assets/fonts/euclid-circular-a/Euclid\ Circular\ A\ SemiBold.ttf');
 }
 
 @font-face {
   font-family: "titulos-regular";
-  src: url('/assets/fonts/uicons/red/titulos/Sora-Regular.ttf');
+  src: url('/assets/fonts/euclid-circular-a/Euclid\ Circular\ A\ Regular.ttf');
 }
 
 /*RESET*/
@@ -223,7 +223,7 @@ a {
 }
 
 a:hover {
-  color: #fc724b!important;
+  color: #6FD1BA!important;
 }
 
 li.hr span {
@@ -1245,7 +1245,7 @@ button[type='submit']:hover {
 
 .btn:hover,
 .button:hover {
-  background-color: #fc724b;
+  background-color: #6FD1BA;
   color: #fff!important;
 }
 
@@ -5990,7 +5990,7 @@ table.no-border thead {
 }
 
 .single-content p {
-  color: #253D4E;
+  color: #1C1D1A;
   font-size: 17px;
 }
 
@@ -8584,7 +8584,7 @@ h6.post-title {
 }
 
 .header-style-1 .main-categori-wrap>a:hover {
-  background-color: #fc724b;
+  background-color: #6FD1BA;
 }
 
 .header-style-1 .main-menu.main-menu-light-white>nav>ul>li>a {
@@ -13218,7 +13218,7 @@ footer .hotline img {
 }
 
 .search_button:hover{
-  background-color: #fc724b!important;
+  background-color: #6FD1BA!important;
 }
 
 .texto-servicio ol{
@@ -13333,4 +13333,8 @@ footer .hotline img {
 
 .hover_gray:hover .banner-text h3{
   color: #fff!important;
+}
+
+.line-right{
+  border-right: 1px solid #ccc;
 }
